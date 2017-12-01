@@ -1,9 +1,10 @@
-<!DOCTYPE html><html><head><title>Anh Nguyen</title>
+<!DOCTYPE html>
+<html>
+<title>Anh Nguyen</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="assert/w3.css">
 <link rel="stylesheet" href="assert/font.css">
-<script type="text/javascript" src="mainPage.js"></script>
 <style>
 body, html {
     height: 100%;
@@ -19,9 +20,7 @@ body, html {
     display: none;
 }
 </style>
-</head><body>
-	
-<script>alert("Welcome to Anh's site. Feel free to contact me!");</script>
+<body>
 
 <!-- Links (sit on top) -->
 <div class="w3-top">
@@ -30,7 +29,7 @@ body, html {
       <a href="#" class="w3-button w3-block w3-black">HOME</a>
     </div>
     <div class="w3-col s3">
-      <a href="#about" class="w3-button w3-block w3-black" id="about">ABOUT</a>
+      <a href="#about" class="w3-button w3-block w3-black">ABOUT</a>
     </div>
     <div class="w3-col s3">
       <a href="#gall" class="w3-button w3-block w3-black">GALLERY</a>
@@ -61,7 +60,7 @@ body, html {
       <p><i>"Anh is like the first slice of bread: Everyone touches him, but no one wants to"</i></p>
       <p>Hieu Le</p>
     </div>
-    <img src="/w3images/coffeeshop.jpg" style="width:100%;max-width:1000px" class="w3-margin-top" alt="pic01">
+    <img src="/w3images/coffeeshop.jpg" style="width:100%;max-width:1000px" class="w3-margin-top"  alt = "pic01" >
     <p><strong>Mail:</strong> dontspam@gmail.com</p>
     <p><strong>TEL:</strong> (123) 456 7890 </p>
   </div>
@@ -70,30 +69,30 @@ body, html {
 <!-- gall Container -->
 <div class="w3-row" id="gall" style="margin-bottom:128px">
   <div class="w3-third">
-    <img src="images/pic01.jpg" style="width:100%" alt="pic02">
-    <img src="images/pic02.jpg" style="width:100%" alt="pic03">
-    <img src="images/pic03.jpg" style="width:100%" alt="pic04">
-    <img src="images/pic04.jpg" style="width:100%" alt="pic05">
-    <img src="images/1.jpg" style="width:100%" alt="pic06">
-    <img src="images/2.jpg" style="width:100%" alt="pic07">
+    <img src="images/pic01.jpg" style="width:100%" alt = "pic02">
+    <img src="images/pic02.jpg" style="width:100%" alt = "pic03">
+    <img src="images/pic03.jpg" style="width:100%" alt = "pic04">
+    <img src="images/pic04.jpg" style="width:100%" alt = "pic05">
+    <img src="images/1.jpg" style="width:100%" alt = "pic06">
+    <img src="images/2.jpg" style="width:100%" alt = "pic07">
   </div>
 
   <div class="w3-third">
-    <img src="images/3.jpg" style="width:100%" alt="pic08">
-    <img src="images/4.jpg" style="width:100%" alt="pic09">
-    <img src="images/5.jpg" style="width:100%" alt="pic10">
-    <img src="images/01.jpg" style="width:100%" alt="pic11">
-    <img src="images/02.jpg" style="width:100%" alt="pic12">
-    <img src="images/03.jpg" style="width:100%" alt="pic13">
+    <img src="images/3.jpg" style="width:100%" alt = "pic08">
+    <img src="images/4.jpg" style="width:100%" alt = "pic09">
+    <img src="images/5.jpg" style="width:100%" alt = "pic10" >
+    <img src="images/01.jpg" style="width:100%" alt = "pic11">
+    <img src="images/02.jpg" style="width:100%" alt = "pic12">
+    <img src="images/03.jpg" style="width:100%" alt = "pic13">
   </div>
 
   <div class="w3-third">
-    <img src="images/slide03.jpg" style="width:100%" alt="pic14">
-    <img src="images/04.jpg" style="width:100%" alt="pic15">
-    <img src="images/6.jpg" style="width:100%" alt="pic16">
-    <img src="images/05.jpg" style="width:100%" alt="pic17">
-    <img src="images/slide02.jpg" style="width:100%" alt="pic18">
-    <img src="images/slide01.jpg" style="width:100%" alt="pic19">
+    <img src="images/slide03.jpg" style="width:100%" alt = "pic14">
+    <img src="images/04.jpg" style="width:100%" alt = "pic15">
+    <img src="images/6.jpg" style="width:100%" alt = "pic16">
+    <img src="images/05.jpg" style="width:100%" alt = "pic17">
+    <img src="images/slide02.jpg" style="width:100%" alt = "pic18">
+    <img src="images/slide01.jpg" style="width:100%" alt = "pic19">
   </div>
 </div>
 
@@ -102,20 +101,20 @@ body, html {
     <div class="w3-content" style="max-width:600px">
       <h4 class="w3-center"><b>Contact Me</b></h4>
       <p>Want to hire me ? Fill out this form and i will be in touch ;)</p>
-      <form action="action_page.php" target="_blank" method="post">
+      <form action="action_page.php" target="_blank" method ="post">
         <div class="w3-section">
           <label>Name</label>
-          <input class="w3-input w3-border" type="text" id="name" name="Name" required="">
+          <input class="w3-input w3-border" type="text" name="Name" required>
         </div>
         <div class="w3-section">
           <label>Email</label>
-          <input class="w3-input w3-border" type="text" id="email" name="Email" required="">
+          <input class="w3-input w3-border" type="text" name="Email" required>
         </div>
         <div class="w3-section">
           <label>Message</label>
-          <input class="w3-input w3-border" type="text" id="message" name="Message" required="">
+          <input class="w3-input w3-border" type="text" name="Message" required>
         </div>
-        <button type="submit" id="submit" class="w3-button w3-block w3-black w3-margin-bottom">Send Message</button>
+        <button type="submit" class="w3-button w3-block w3-black w3-margin-bottom">Send Message</button>
       </form>
     </div>
   </div>
@@ -127,6 +126,5 @@ body, html {
 </footer>
 
 
-
-
-</body></html>
+</body>
+</html>
