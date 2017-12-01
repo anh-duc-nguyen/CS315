@@ -1,0 +1,105 @@
+* {
+		margin: 0;
+		padding: 1;
+		}
+
+html {
+		font-size: 100%;
+		overflow-x : hidden;
+		}
+body {
+	background-image: url("bg.png");
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 300;
+	}
+	
+p {
+  font-size: 18px;
+  letter-spacing: 0.8px;
+  line-height: 28px; 
+  }
+
+#wrapper {
+
+		margin: 0 auto;
+		background: #90CAF9;
+		width: 80%;
+		margin-bottom: 10px;
+		overflow: hidden;
+		}
+
+#profimage {
+		float: right;
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+
+#content {
+		font: 1.1em/1.4 Verdana, Arial, Helvetica, sans-serif;
+		padding: 15px 15px 15px;
+		border-right: 2px solid #898989;
+		border-bottom: 2px solid #898989;
+		border-left: 2px solid #898989;
+		}
+
+#navContainer {
+		font: 1.1em Arial, Helvetica, sans-serif;
+		text-align: center;
+		padding: 10px 0 0;
+		border-bottom: 2px solid #909090;
+		background: #ff2d11;
+		}
+
+#navigation ul {
+		padding: 0 0 5px;
+		color: #c21500;
+		background-color: transparent;
+		}
+
+#navigation li {
+		display: inline;
+		}
+
+#navigation a:link, #navigation a:visited {
+		text-transform: uppercase;
+		text-decoration: none;
+		color: #000000;
+		background: #ccccff;
+		border: 1px solid #898989;
+		padding: 5px 10px;
+		position: relative;
+		margin-right: 5px;
+		}
+
+
+#navigation a:visited {
+		background-color: #4CAF50;
+		color:white;
+		}
+
+#navigation a:hover {
+    background-color: #555;
+    color: white;
+		}
+
+#homePage #homePageLink a:link, #homePage #homePageLink a:visited, #Class1Page #Class1PageLink a:link, #Class1Page #Class1PageLink a:visited, #Class2Page #Class2PageLink a:link, #Class2Page #Class2PageLink a:visited {
+		background: #90CAF9;
+		border-bottom-color: #73ff44;
+		border-radius: 4px;
+		border-style: dotted;
+		}
+
+li {
+	list-style-type: square;
+    margin-left: 15px;
+   }
+
+html,body{font-family:Verdana,sans-serif;font-size:15px;line-height:1.5}
+html{overflow-x:hidden}
+h1{font-size:36px}
+h2{font-size:30px}
+h3{font-size:24px}
+h4{font-size:20px}
+h5{font-size:18px}
+h6{font-size:16px}.w3-serif{font-family:serif}
+h1,h2,h3,h4,h5,h6{font-family:"Segoe UI",Arial,sans-serif;font-weight:400;margin:10px 0}.w3-wide{letter-spacing:4px}
