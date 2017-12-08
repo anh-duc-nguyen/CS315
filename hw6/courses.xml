@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet href="style.css" type="text/css"?>
+<!DOCTYPE COURSES SYSTEM "http://sand.truman.edu/~hm1186/hw6/courses.dtd">
+<COURSES>
+    <COURSE CRN="2309">
+        <COURSE_NUM>CS 191</COURSE_NUM>
+        <TITLE>Computing Structures</TITLE>
+        <DEPARTMENT>Computer Science</DEPARTMENT>
+        <PROFESSOR>
+            <NAME>
+                <FIRST_NAME>Ruth</FIRST_NAME>
+                <MIDDLE_NAME>S.</MIDDLE_NAME>
+                <LAST_NAME>Halma</LAST_NAME>
+            </NAME>
+        </PROFESSOR>
+        <MEETING>
+            <PERIOD>
+                <DAY>Monday</DAY>
+                <TIME>11:30am-12:20am</TIME>
+            </PERIOD>
+            <PERIOD>
+                <DAY>Wednesday</DAY>
+                <TIME>11:30am-12:20am</TIME>
+            </PERIOD>
+            <PERIOD>
+                <DAY>Friday</DAY>
+                <TIME>11:30am-12:20am</TIME>
+            </PERIOD>
+        </MEETING>
+    </COURSE>
+    <COURSE CRN="2316">
+        <COURSE_NUM>CS 291</COURSE_NUM>
+        <TITLE>Models of Computation</TITLE>
+        <DEPARTMENT>Computer Science</DEPARTMENT>
+        <PROFESSOR>
+            <NAME>
+                <FIRST_NAME>John</FIRST_NAME>
+                <MIDDLE_NAME></MIDDLE_NAME>
+                <LAST_NAME>Neitzke</LAST_NAME>
+            </NAME>
+        </PROFESSOR>
+        <MEETING>
+            <PERIOD>
+                <DAY>Tuesday</DAY>
+                <TIME>01:30pm-02:20pm</TIME>
+            </PERIOD>
+            <PERIOD>
+                <DAY>Thursday</DAY>
+                <TIME>01:30pm-02:20pm</TIME>
+            </PERIOD>
+        </MEETING>
+    </COURSE>
+    <COURSE CRN="2302">
+        <COURSE_NUM>CS 495</COURSE_NUM>
+        <TITLE>Senior Seminar in CS</TITLE>
+        <DEPARTMENT>Computer Science</DEPARTMENT>
+        <PROFESSOR>
+            <NAME>
+                <FIRST_NAME>Alan</FIRST_NAME>
+                <MIDDLE_NAME></MIDDLE_NAME>
+                <LAST_NAME>Garvey</LAST_NAME>
+            </NAME>
+        </PROFESSOR>
+        <MEETING>
+            <PERIOD>
+                <DAY>Wednesday</DAY>
+                <TIME>08:30pm-09:20pm</TIME>
+            </PERIOD>
+        </MEETING>
+    </COURSE>
+</COURSES>

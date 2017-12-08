@@ -11,15 +11,16 @@
 <h1>Pop Quiz</h1>
 
 <?php
-$author = $_POST["Author"];
-$name = $_POST["Name"];
-$number = $_POST["Number"];
-$year = $_POST["Year"];
-$mountain = $_POST["Mountain"];
+echo "kia anh";
+$author = $_get["Author"];
+$name = $_get["Name"];
+$number = $_get["Number"];
+$year = $_get["Year"];
+$mountain = $_get["Mountain"];
 
 $authorMsg = $nameMsg = $numberMsg = $yearMsg = $mountainMsg = "";
 $isValid = true;
-$isSubmitted = $_SERVER["REQUEST_METHOD"] == "POST";
+$isSubmitted = $_SERVER["REQUEST_METHOD"] == "get";
 
 if ($isSubmitted)
 {
@@ -61,7 +62,7 @@ if ($isSubmitted)
 }
 ?>
 
-<form method="post" action="hw3.php">
+<form method="get" action="hw3.php">
 
 <div>   
        <div class="question">Question 1: Who is the author of the book "Game of Throne"?</div>

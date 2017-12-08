@@ -1,0 +1,54 @@
+COURSE {
+  display: block;
+  text-align: center;
+  margin: 16px;
+  padding: 12px;
+}
+
+COURSE:before {
+  font-size: 22px;
+  content: attr(CRN);
+}
+
+COURSE_NUM {
+  display: block;
+  font-size: 26px;
+}
+
+TITLE {
+  display: block;
+  font-size: 26px;
+  text-decoration: underline;
+}
+
+DEPARTMENT {
+  display: block;
+  font-size: 22px;
+}
+
+PROFESSOR {
+  font-style: italic;
+  display: block;
+  font-size: 22px;
+}
+
+PERIOD, NAME {
+  margin-right: 12px;
+  margin-left: 12px;
+}
+
+MEETING_TIME {
+  display: block;
+  font-size: 22px;
+}
+
+DAY {
+  font-weight: bold;
+}
+
+FEE {
+  display: block;
+  font-size: 16px;
+}
+
+
